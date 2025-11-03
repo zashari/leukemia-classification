@@ -2,7 +2,7 @@
 
 An end-to-end computer vision pipeline for automated classification of leukemia cell subtypes from bone marrow smear images, achieving **100% accuracy** with lightweight YOLO models.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements an advanced image processing and deep learning workflow to differentiate between:
 - **Benign hematogones** (healthy blood cells)
@@ -13,7 +13,7 @@ This project implements an advanced image processing and deep learning workflow 
 
 The solution combines sophisticated cell segmentation techniques with modern CNN and YOLO architectures to achieve clinical-grade classification performance.
 
-## 📊 Dataset
+## Dataset
 
 **Source**: [Kaggle Blood Cell Cancer ALL 4-Class Dataset](https://www.kaggle.com/datasets/mohammadamireshraghi/blood-cell-cancer-all-4class/data)
 
@@ -32,7 +32,7 @@ The solution combines sophisticated cell segmentation techniques with modern CNN
 ### Sample Raw Dataset
 ![Sample Dataset](img/sample-raw-dataset.png)
 
-## 🔬 Methodology
+## Methodology
 
 ### Processing Pipeline Overview
 
@@ -69,7 +69,7 @@ For dual-input architectures, we create paired original-mask combinations:
 - **Result**: Perfect class balance (811 samples per class)
 - **Applied to**: Training set only (prevents data leakage)
 
-## 🤖 Model Architectures
+## Model Architectures
 
 We benchmarked **7 state-of-the-art architectures** across three categories:
 
@@ -82,16 +82,16 @@ We benchmarked **7 state-of-the-art architectures** across three categories:
 | | NASNet-Mobile | ImageNet preset | Custom | Mask only |
 | **Dual-Channel CNN** | Dual-MobileNetV2 | 3.70M | 1.44M | Original + Mask |
 | **YOLO Family** | YOLOv8-n | 1.82M | All | Mask only |
-| | **YOLOv11-n** ⭐ | **1.63M** | All | Mask only |
+| | **YOLOv11-n** | **1.63M** | All | Mask only |
 | | YOLOv12-n | 1.82M | All | Mask only |
 
-## 📈 Performance Results
+## Performance Results
 
 ### Overall Model Performance Ranking
 
 | Rank | Model | Test Accuracy | Parameters | Key Strength |
 |------|-------|--------------|------------|--------------|
-| **1** | **YOLOv11-n** ⭐ | **100%** | **1.63M** | Best efficiency |
+| **1** | **YOLOv11-n** | **100%** | **1.63M** | Best efficiency |
 | 1 | YOLOv8-n | 100% | 1.82M | Perfect accuracy |
 | 1 | YOLOv12-n | 100% | 1.82M | Latest architecture |
 | 4 | MobileNetV2 | 99.1% | 2.59M | Good accuracy |
@@ -117,7 +117,7 @@ We benchmarked **7 state-of-the-art architectures** across three categories:
 ### Test Set Performance Summary
 ![Test Performance](img/testing-performance-all-model.png)
 
-## 🎯 Key Findings
+## Key Findings
 
 1. **Perfect Classification Achieved**: All YOLO models achieved 100% accuracy on test data
 2. **Segmentation is Critical**: Mask-only input captures all necessary diagnostic features
@@ -125,7 +125,7 @@ We benchmarked **7 state-of-the-art architectures** across three categories:
 4. **Dual-Channel No Benefit**: Adding original images to masks provides no performance gain
 5. **Clinical Viability**: >0.91 confidence scores suggest readiness for clinical validation
 
-## 💻 Technical Implementation
+## Technical Implementation
 
 ### Training Configuration
 ```python
@@ -152,7 +152,7 @@ YOLO_EPOCHS = 23  # Early stopped
 - scikit-learn
 - NumPy, Pandas, Matplotlib
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 leukemia-classification/
@@ -174,7 +174,7 @@ leukemia-classification/
 └── README.md                     # This file
 ```
 
-## 🏥 Clinical Implications
+## Clinical Implications
 
 This project demonstrates the feasibility of automated leukemia cell classification for:
 - **Rapid screening** in resource-limited settings
@@ -182,7 +182,7 @@ This project demonstrates the feasibility of automated leukemia cell classificat
 - **Training tools** for medical professionals
 - **Point-of-care diagnostics** using edge devices
 
-## 🚀 Future Improvements
+## Future Improvements
 
 1. **External validation** on datasets from different medical centers
 2. **Explainable AI** techniques for clinical interpretability
@@ -190,12 +190,12 @@ This project demonstrates the feasibility of automated leukemia cell classificat
 4. **Multi-class expansion** to include more leukemia subtypes
 5. **Uncertainty quantification** for borderline cases
 
-## 📊 Summary Table
+## Summary Table
 
 Detailed results and model comparisons are available in:
 `[Summary Table] Leukemia Classification.xlsx`
 
-## 🔬 Research Applications
+## Research Applications
 
 This work contributes to:
 - Medical image analysis benchmarking
@@ -203,7 +203,7 @@ This work contributes to:
 - Edge AI for diagnostics
 - Computer-aided diagnosis (CAD) systems
 
-## 📝 Citation
+## Citation
 
 If you use this work in your research, please cite:
 ```bibtex
@@ -216,13 +216,13 @@ If you use this work in your research, please cite:
 }
 ```
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Kaggle dataset contributors
 - Medical imaging community
 - Open-source deep learning frameworks
 
-## 📄 License
+## License
 
 This project is for educational and research purposes. Please ensure proper ethical approval for any clinical applications.
 
