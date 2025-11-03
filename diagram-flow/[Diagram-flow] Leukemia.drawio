@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
+  <diagram name="Page-1" id="C6KUn9YIG0bfBBOUrPnl">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-42" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="1520" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-37" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="760" width="990" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-33" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=#C7BC9F;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="850" width="990" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-14" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;shadow=1;fillColor=#d5e8d4;strokeColor=#0D120A;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="480" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-1" target="--hPoo-m0Y97KXCk6aNw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;START&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;dashed=1;strokeWidth=2;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-4" target="--hPoo-m0Y97KXCk6aNw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-4" target="--hPoo-m0Y97KXCk6aNw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Input Data&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-5" value="&lt;ul&gt;&lt;li&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;Source: &lt;/b&gt;Kaggle&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Classes: &lt;/b&gt;3&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;strokeWidth=2;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-8" target="--hPoo-m0Y97KXCk6aNw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-8" target="--hPoo-m0Y97KXCk6aNw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Data Exploration&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-9" value="&lt;ul&gt;&lt;li&gt;Data Distribution Analysis&lt;/li&gt;&lt;li&gt;Pixel Distribution Analysis&lt;/li&gt;&lt;li&gt;Display Sample Data&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-13" target="--hPoo-m0Y97KXCk6aNw-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Data Processing&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-15" value="&lt;ul&gt;&lt;li&gt;Segmentation&lt;/li&gt;&lt;ul&gt;&lt;li&gt;LAB conversion&lt;/li&gt;&lt;li&gt;KMEANS clustering&lt;/li&gt;&lt;li&gt;Binary Thresholding&lt;/li&gt;&lt;li&gt;Morphological Cleaning&lt;/li&gt;&lt;li&gt;Size Filtering &amp;amp; Imposition&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Resize &amp;amp; Rescale&lt;/li&gt;&lt;li&gt;Ori-mask Pairing&lt;/li&gt;&lt;li&gt;Data Splitting&lt;/li&gt;&lt;li&gt;Data Augmentation&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="560" y="390" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;dashed=1;strokeWidth=2;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-13" target="--hPoo-m0Y97KXCk6aNw-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="439.78" as="sourcePoint" />
+            <mxPoint x="560" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-18" value="&lt;b&gt;Processing Pipeline&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="682" y="356" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-19" target="--hPoo-m0Y97KXCk6aNw-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Model Architectures&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="667.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-21" value="&lt;ul&gt;&lt;li&gt;EfficientNet-B0&lt;/li&gt;&lt;li&gt;MobileNetV2&lt;/li&gt;&lt;li&gt;NASNet-mobile&lt;/li&gt;&lt;li&gt;Custom Dual Channel Model&lt;/li&gt;&lt;li&gt;YOLOv8&lt;/li&gt;&lt;li&gt;YOLOv11&lt;/li&gt;&lt;li&gt;YOLOv12&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="70" y="640" width="210" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;strokeWidth=2;entryX=1.007;entryY=0.505;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.009;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-19" target="--hPoo-m0Y97KXCk6aNw-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="697.27" as="sourcePoint" />
+            <mxPoint x="280" y="697.27" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.322;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;dashed=1;strokeWidth=2;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-23" target="--hPoo-m0Y97KXCk6aNw-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-23" target="--hPoo-m0Y97KXCk6aNw-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Model Training&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="782.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-25" value="&lt;ul&gt;&lt;li&gt;Epoch: 30&lt;/li&gt;&lt;li&gt;Batch Size: 32&lt;/li&gt;&lt;li&gt;Image Size: (224, 224)&lt;/li&gt;&lt;li&gt;Learning Rate: 0.001&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="560" y="765" width="190" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-27" value="&lt;ul&gt;&lt;li&gt;&lt;li&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Base Model&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: EfficientNetB0 (ImageNet pretrained)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Input Shape&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: (224, 224, 3)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Optimizer&lt;/b&gt;: Adam(learning_rate=0.001)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Loss Function&lt;/b&gt;: categorical_crossentropy&lt;/li&gt;&lt;li&gt;&lt;b&gt;Metrics&lt;/b&gt;: accuracy&lt;/li&gt;&lt;li&gt;&lt;b&gt;Callbacks&lt;/b&gt;:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;ModelCheckpoint (monitor=&#39;val_accuracy&#39;, save_best_only=True)&lt;/li&gt;&lt;li&gt;ReduceLROnPlateau (factor=0.5, patience=3, min_lr=0.00001)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="560" y="860" width="460" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-28" value="&lt;ul&gt;&lt;li&gt;&lt;li&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Base Model&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: MobileNetV2&amp;nbsp;(ImageNet pretrained)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Input Shape&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: (224, 224, 3)&lt;/span&gt;&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Optimizer&lt;/strong&gt;: Adam(learning_rate=0.001)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Loss Function&lt;/strong&gt;: categorical_crossentropy&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Metrics&lt;/strong&gt;: accuracy&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Callbacks&lt;/strong&gt;: Same as EfficientNetB0&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1020" width="460" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-29" value="&lt;ul&gt;&lt;li&gt;&lt;li&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Base Model&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: NASNetMobile&amp;nbsp;(ImageNet pretrained)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Input Shape&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: (224, 224, 3)&lt;/span&gt;&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Optimizer&lt;/strong&gt;: Adam(learning_rate=0.001)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Loss Function&lt;/strong&gt;: categorical_crossentropy&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Metrics&lt;/strong&gt;: accuracy&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Callbacks&lt;/strong&gt;: Same as previous models&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1150" width="460" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-30" value="&lt;ul&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Base Model&lt;/strong&gt;: Custom Model (ImageNet pretrained, shared weights)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Input Channels&lt;/strong&gt;: 2 (original image + segmented image)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Input Shape&lt;/strong&gt;: (224, 224, 3) for each channel&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Optimizer&lt;/strong&gt;: Adam(learning_rate=0.001)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Loss Function&lt;/strong&gt;: categorical_crossentropy&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Metrics&lt;/strong&gt;: accuracy&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Callbacks&lt;/strong&gt;:&lt;ul depth=&quot;1&quot; class=&quot;[&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7&quot;&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;ModelCheckpoint&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;ReduceLROnPlateau&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;EarlyStopping (patience=5, restore_best_weights=True)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1001" width="460" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-31" value="&lt;ul&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Model Size&lt;/strong&gt;: YOLOv8n-cls (nano)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Input Size&lt;/strong&gt;: 224×224&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Data Augmentation&lt;/strong&gt;: Auto-augment (randaugment)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Optimizer&lt;/strong&gt;: AdamW (auto-selected)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Learning Rate&lt;/strong&gt;: 0.001429 (auto-optimized)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Momentum&lt;/strong&gt;: 0.9&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Weight Decay&lt;/strong&gt;: 0.0005&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Batch Size&lt;/strong&gt;: 32&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Image Size&lt;/strong&gt;: 224&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Epochs&lt;/strong&gt;: 30 (with early stopping, patience=5)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Additional Parameters&lt;/strong&gt;:&lt;ul depth=&quot;1&quot; class=&quot;[&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7&quot;&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;HSV augmentation: h=0.015, s=0.7, v=0.4&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Flip probability: 0.5 (horizontal)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Mosaic: 1.0&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Erasing: 0.4&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1181" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-32" value="&lt;ul&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Model Size&lt;/strong&gt;: YOLOv11n-cls (nano) &amp;amp; YOLOv12n-cls&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Input Size&lt;/strong&gt;: 224×224&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Optimizer&lt;/strong&gt;: AdamW (auto-selected)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Learning Rate&lt;/strong&gt;: 0.001429&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Training completed&lt;/strong&gt;: 23 epochs (early stopped)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;Other parameters&lt;/strong&gt;: Same as YOLOv8&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1290" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-35" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Global Parameter&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="760" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Model-specific Parameter&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="850" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;strokeWidth=2;dashed=1;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-40" target="--hPoo-m0Y97KXCk6aNw-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-40" target="--hPoo-m0Y97KXCk6aNw-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-40" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Model Evaluation&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="900.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Training Pipeline&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="610" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-46" value="&lt;ul&gt;&lt;li&gt;Accuracry&lt;/li&gt;&lt;li&gt;Precision&lt;/li&gt;&lt;li&gt;Recall&amp;nbsp;&lt;/li&gt;&lt;li&gt;F1-Score&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="896.5" width="120" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="--hPoo-m0Y97KXCk6aNw-49" target="--hPoo-m0Y97KXCk6aNw-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-49" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Save Trained model&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="--hPoo-m0Y97KXCk6aNw-51" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;END&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1490" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
