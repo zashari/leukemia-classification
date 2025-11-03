@@ -9,7 +9,6 @@ This project implements an advanced image processing and deep learning workflow 
 - **B-ALL malignant subtypes**:
   - Pre-B lymphoblasts
   - Pro-B lymphoblasts
-  - Early-pre-B lymphoblasts
 
 The solution combines sophisticated cell segmentation techniques with modern CNN and YOLO architectures to achieve clinical-grade classification performance.
 
@@ -18,16 +17,15 @@ The solution combines sophisticated cell segmentation techniques with modern CNN
 **Source**: [Kaggle Blood Cell Cancer ALL 4-Class Dataset](https://www.kaggle.com/datasets/mohammadamireshraghi/blood-cell-cancer-all-4class/data)
 
 ### Dataset Statistics
-- **Total Images**: 3,242 bone marrow smear images
+- **Total Images**: 2,263 bone marrow smear images
 - **Resolution**: Variable (standardized to 224×224)
-- **Classes**: 4 cell types
+- **Classes**: 3 cell types
 
-| Class | Original Count | Percentage | After Augmentation |
+| Class | Original Count | After Augmentation |
 |-------|---------------|------------|-------------------|
-| Benign | 512 | 15.8% | 811 |
-| Pre-B | 955 | 29.4% | 811 |
-| Pro-B | 796 | 24.5% | 811 |
-| Early-pre-B | 979 | 30.2% | 811 |
+| Benign | 512 | 811 |
+| Pre-B | 955 | 811 |
+| Pro-B | 796 | 811 |
 
 ### Sample Raw Dataset
 ![Sample Dataset](img/sample-raw-dataset.png)
