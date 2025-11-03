@@ -34,7 +34,7 @@ The solution combines sophisticated cell segmentation techniques with modern CNN
 
 ## Methodology
 
-### Processing Pipeline Overview
+### Project Pipeline Overview
 
 ![Full Pipeline](diagram-flow/[Diagram-flow]%20Leukemia.drawio.png)
 
