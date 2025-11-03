@@ -242,10 +242,10 @@ If you use this work in your research, please cite both this implementation and 
 
 ### This Implementation:
 ```bibtex
-@misc{leukemia-classification-2024,
+@misc{leukemia-classification-2025,
   author = {Zaky Ashari},
   title = {Leukemia Cell Classification Using Deep Learning},
-  year = {2024},
+  year = {2025},
   publisher = {GitHub},
   url = {https://github.com/zashari/leukemia-classification}
 }
