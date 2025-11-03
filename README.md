@@ -2,6 +2,10 @@
 
 An end-to-end computer vision pipeline for automated classification of leukemia cell subtypes from bone marrow smear images, achieving **100% accuracy** with lightweight YOLO models.
 
+## Important Note
+
+This project is based on the methodological approach described in Hosseini et al. (2023) [1], particularly the segmentation pipeline and preprocessing techniques. However, all code implementation was developed independently from scratch based on the paper's methodology description. Additionally, this project extends the original work by experimenting with different model architectures and input configurations, including the YOLO family models that were not part of the original study.
+
 ## Project Overview
 
 This project implements an advanced image processing and deep learning workflow to differentiate between:
@@ -31,6 +35,8 @@ The solution combines sophisticated cell segmentation techniques with modern CNN
 ![Sample Dataset](img/sample-raw-dataset.png)
 
 ## Methodology
+
+The segmentation and preprocessing pipeline follows the approach described in Hosseini et al. (2023) [1], which uses LAB color space conversion and K-means clustering for effective cell isolation from bone marrow images.
 
 ### Project Pipeline Overview
 
@@ -123,6 +129,26 @@ We benchmarked **7 state-of-the-art architectures** across three categories:
 4. **Dual-Channel No Benefit**: Adding original images to masks provides no performance gain
 5. **Clinical Viability**: >0.91 confidence scores suggest readiness for clinical validation
 
+## Differences from Reference Paper
+
+This implementation differs from Hosseini et al. (2023) [1] in several key aspects:
+
+### Reference Paper (Hosseini et al., 2023):
+- **Model Architectures**: EfficientNet-B0, MobileNet-V2, and NASNet-Mobile only
+- **Input Configuration**: Dual-channel input combining original + segmented (mask-applied) images
+- **Best Performance**: Achieved with dual-channel approach
+
+### This Implementation:
+- **Extended Model Set**:
+  - Same CNN architectures (EfficientNet-B0, MobileNet-V2, NASNet-Mobile) but using **mask-only input**
+  - Custom Dual-Channel MobileNet-V2 for fair comparison with the paper's approach
+  - Additional YOLO family models (YOLOv8, YOLOv11, YOLOv12) not present in original study
+- **Input Configurations Tested**:
+  - Mask-only input for all models
+  - Dual-channel (original + mask) specifically for MobileNet-V2
+- **Key Finding**: Mask-only input performs equal or better than dual-channel, contradicting the original paper's approach
+- **Best Performance**: YOLOv11-n with mask-only input (100% accuracy, 1.63M parameters)
+
 ## Technical Implementation
 
 ### Training Configuration
@@ -210,9 +236,11 @@ This work contributes to:
 - Edge AI for diagnostics
 - Computer-aided diagnosis (CAD) systems
 
-## Citation
+## Citations
 
-If you use this work in your research, please cite:
+If you use this work in your research, please cite both this implementation and the reference paper:
+
+### This Implementation:
 ```bibtex
 @misc{leukemia-classification-2024,
   author = {Zaky Ashari},
@@ -223,11 +251,32 @@ If you use this work in your research, please cite:
 }
 ```
 
+### Reference Paper:
+```bibtex
+@article{HOSSEINI2023101244,
+  title = {A mobile application based on efficient lightweight CNN model for classification of B-ALL cancer from non-cancerous cells: A design and implementation study},
+  author = {Azamossadat Hosseini and Mohammad Amir Eshraghi and Tania Taami and Hamidreza Sadeghsalehi and Zahra Hoseinzadeh and Mustafa Ghaderzadeh and Mohammad Rafiee},
+  journal = {Informatics in Medicine Unlocked},
+  volume = {39},
+  pages = {101244},
+  year = {2023},
+  issn = {2352-9148},
+  doi = {https://doi.org/10.1016/j.imu.2023.101244},
+  url = {https://www.sciencedirect.com/science/article/pii/S2352914823000862}
+}
+```
+
+## References
+
+[1] Hosseini, A., Eshraghi, M. A., Taami, T., Sadeghsalehi, H., Hoseinzadeh, Z., Ghaderzadeh, M., & Rafiee, M. (2023). A mobile application based on efficient lightweight CNN model for classification of B-ALL cancer from non-cancerous cells: A design and implementation study. *Informatics in Medicine Unlocked*, 39, 101244. https://doi.org/10.1016/j.imu.2023.101244
+
 ## Acknowledgments
 
-- Kaggle dataset contributors
+- **Dataset**: The dataset used in this project was provided by Hosseini et al. (2023) and is available on [Kaggle](https://www.kaggle.com/datasets/mohammadamireshraghi/blood-cell-cancer-all-4class/data)
+- **Methodology**: The segmentation and preprocessing pipeline is based on the approach described in Hosseini et al. (2023) [1]
+- **Implementation**: All code was independently developed based on the paper's methodology description
 - Medical imaging community
-- Open-source deep learning frameworks
+- Open-source deep learning frameworks (TensorFlow, Ultralytics YOLO)
 
 ## License
 
