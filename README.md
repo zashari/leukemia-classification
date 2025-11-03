@@ -22,7 +22,7 @@ The solution combines sophisticated cell segmentation techniques with modern CNN
 - **Classes**: 3 cell types
 
 | Class | Original Count | After Augmentation |
-|-------|---------------|------------|-------------------|
+|-------|----------------|-------------------|
 | Benign | 512 | 811 |
 | Pre-B | 955 | 811 |
 | Pro-B | 796 | 811 |
