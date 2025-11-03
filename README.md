@@ -45,11 +45,11 @@ The solution combines sophisticated cell segmentation techniques with modern CNN
 ### Key Processing Stages
 
 #### 1. **Advanced Segmentation Block**
-Our custom segmentation pipeline isolates individual blast cells from complex bone marrow backgrounds:
+Our custom segmentation pipeline isolates individual blast cells from complex bone marrow backgrounds, below is the sample visual of segmentation block to show the Original image into the Segmented image:
 
-| Stage | Benign Sample | Pre-B Malignant | Pro-B Malignant |
-|-------|---------------|-----------------|-----------------|
-| **Original** → **Segmented** | ![Benign Segmentation](img/sample-data-processing-segmentation-benign.png) | ![Pre-B Segmentation](img/sample-data-processing-segmentation-malignant-pre-b.png) | ![Pro-B Segmentation](img/sample-data-processing-segmentation-malignant-pro-b.png) |
+![Benign Segmentation](img/sample-data-processing-segmentation-benign.png)
+![Pre-B Segmentation](img/sample-data-processing-segmentation-malignant-pre-b.png)
+![Pro-B Segmentation](img/sample-data-processing-segmentation-malignant-pro-b.png)
 
 **Technical Details**:
 - LAB color space conversion for enhanced color separation
