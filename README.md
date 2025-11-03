@@ -155,20 +155,29 @@ YOLO_EPOCHS = 23  # Early stopped
 ```
 leukemia-classification/
 │
+├── datasets/                      # Dataset files (excluded from git)
+│   ├── train/                    # Training data
+│   ├── valid/                    # Validation data
+│   └── test/                     # Test data
+│
 ├── docs/                          # Technical documentation
 │   ├── [Technical Documentation] Leukemia Classification.docx
 │   ├── [PROCESSING PIPELINE] Leukemia Classification.docx
 │   └── [Project Presentation] Leukemia Classification.pdf
 │
 ├── diagram-flow/                  # Process flow diagrams
+│   ├── [Diagram-flow] Leukemia.drawio
 │   ├── [Diagram-flow] Leukemia.drawio.png
+│   ├── [Processing Diagram-flow] Leukemia Classification.drawio
 │   └── [Processing Diagram-flow] Leukemia Classification.png
 │
 ├── img/                          # Visualization images
 │   ├── sample-*.png             # Data samples
 │   └── model-performance-*.png  # Performance plots
 │
+├── leukemia-classification.ipynb # Main implementation notebook
 ├── [Summary Table] Leukemia Classification.xlsx  # Results summary
+├── .gitignore                    # Git ignore file
 └── README.md                     # This file
 ```
 
